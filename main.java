@@ -19,11 +19,11 @@ public class main {
 
         // Quiz questions
         String[][] questions = {
-                {"What is the capital of France?", "a) Berlin", "b) Paris", "c) Madrid", "b"},
-                {"What is 2 + 2?", "a) 3", "b) 4", "c) 5", "b"},
-                {"What is the largest planet in our solar system?", "a) Earth", "b) Jupiter", "c) Mars", "b"},
-                {"Which language is used for web development?", "a) Python", "b) JavaScript", "c) Java", "b"},
-                {"Who wrote 'Hamlet'?", "a) Charles Dickens", "b) William Shakespeare", "c) Mark Twain", "b"}
+                {"Number of primitive data types in Java are?", "a) 6", "b) 7", "c) 8", "c"},
+                {"What is the size of float and double in java?", "a) 64 and 64", "b) 32 and 64", "c) 64 and 32", "b"},
+                {"Automatic type conversion is possible in which of the possible cases?", "a) Byte to Int", "b) Int to Long", "c) Int to Float", "b"},
+                {"Select the valid statement.", "a) char[] ch = new char(5)", "b) char[] ch = new char[5]", "c) char[] ch = new char[]", "b"},
+                {"When an array is passed to a method, what does the method receive?", "a) Copy of first element", "b) The reference of an array", "c) A copy of the array", "b"}
         };
 
         // Ask each question
@@ -42,7 +42,7 @@ public class main {
             } else {
                 System.out.println("Wrong! The correct answer was " + question[4]);
             }
-            System.out.println(); // New line for better readability
+            System.out.println();
         }
 
         // Display final score
